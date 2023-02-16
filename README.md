@@ -51,7 +51,14 @@ https://github.com/jhao104/proxy_pool/releases 下载对应zip文件
 ```bash
 pip install -r requirements.txt
 ```
-
+```bash
+报错：
+ImportError: cannot import name 'Markup' from 'jinja2' (/usr/local/lib/python3.9/site-packages/jinja2/__init__.py
+```
+```bash
+pip install Flask==2.0.3
+pip install Jinja2==3.1.1
+```
 ##### 更新配置:
 
 
